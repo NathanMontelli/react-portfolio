@@ -1,3 +1,16 @@
 .btn-secondary {
-  background-color: rgb(80, 236, 231);
+  background-color: white!important;
+  color: black!important;
+}
+
+.btn-secondary:hover {
+  background-color: turquoise!important;
+}
+
+.portfolio {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 100px;
 }

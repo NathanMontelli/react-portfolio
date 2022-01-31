@@ -11,9 +11,11 @@
  .intro {
    font-size: 75px;
    padding-left: 10%;
+   color: white;
  }
  .info {
    font-size: 25px;
    padding-left: 10%;
    padding-right: 5%;
+   color: rgb(155, 152, 152);
  }

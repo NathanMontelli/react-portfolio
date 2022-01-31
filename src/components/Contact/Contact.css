@@ -1,6 +1,7 @@
 .formEdit {
   padding-left: 250px;
   padding-right: 250px;
+  margin-bottom: 80px;
 }
 .textarea {
   height: 200px;
@@ -11,4 +12,5 @@
   padding-top: 70px;
   padding-bottom: 80px;
   font-size: 100px;
+  color: white!important;
 }

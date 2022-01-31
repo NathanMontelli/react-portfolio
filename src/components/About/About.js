@@ -8,7 +8,7 @@ const About = () => {
     <>
   <Container >
       <Row>
-        <h6 className='header'> </h6>
+        <h6 id="aboutMe" className='header'> </h6>
         <Col
           className=""
           md="6"

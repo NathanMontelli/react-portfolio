@@ -1,4 +1,4 @@
-import { Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink, Collapse, UncontrolledDropdown, DropdownItem, DropdownToggle, DropdownMenu, Container} from 'reactstrap'
+import { Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink, Collapse, UncontrolledDropdown, DropdownItem, DropdownToggle, DropdownMenu, Container } from 'reactstrap'
 import './Appbar.css'
 
 const Appbar = () => {
@@ -20,17 +20,17 @@ const Appbar = () => {
             navbar
           >
             <NavItem>
-              <NavLink href="">
+              <NavLink href="#aboutMe">
                 About Me
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">
+              <NavLink href="#portfolio">
                 Portfolio
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">
+              <NavLink href="#contactMe">
                 Contact
               </NavLink>
             </NavItem>
@@ -44,23 +44,28 @@ const Appbar = () => {
               >
                 Options
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu
+                className='btn2'
+                right>
                 <DropdownItem>
-                  <NavLink color='dark' dark href="https://github.com/NathanMontelli">
+                  <NavLink className='btn3' href="https://github.com/NathanMontelli">
                     GitHub
+                    {/* <img className='full' src="https://img.icons8.com/nolan/96/github.png" alt="gitHub" /> */}
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://www.linkedin.com/in/nathanmontelli/">
-                    Linkedin
+                  <NavLink className='btn3' href="https://www.linkedin.com/in/nathanmontelli/">
+                    Linkedin 
+                    {/* <img className='full' src="https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png" alt='linkedin' /> */}
                   </NavLink>
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="https://docs.google.com/document/d/1OSeYMj4DoRSfnZ13uI1yB5Lh451gDkXf1JSDPdAEziM/edit?usp=sharing">
+                Resume
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

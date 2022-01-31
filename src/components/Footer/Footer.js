@@ -4,24 +4,19 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-<Container>
-  <Row>
-    <div>
+  <Row className="footer">
       <Navbar
-      className="footer"
+      className="footer1"
         color="dark"
         dark
-        expand="md"
-        fixed="bottom"
+        expand="lg"
+        sticky="bottom"
       >
         <NavbarBrand href="/">
-          reactstrapss
+          Nathan Montelli
         </NavbarBrand>
       </Navbar>
-    </div>
     </Row>
-</Container>
-    
   )
 }
 

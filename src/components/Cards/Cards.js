@@ -10,6 +10,7 @@ const Cards = () => {
 
 
       <CardColumns>
+        <p id='portfolio' className='portfolio'>My Portfolio</p>
         <Row>
           <Col sm="6">
             <Card>
