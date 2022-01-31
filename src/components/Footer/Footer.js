@@ -4,19 +4,17 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-  <Row className="footer">
       <Navbar
       className="footer1"
         color="dark"
         dark
-        expand="lg"
+        expand="xs"
         sticky="bottom"
       >
         <NavbarBrand href="/">
           Nathan Montelli
         </NavbarBrand>
       </Navbar>
-    </Row>
   )
 }
 
