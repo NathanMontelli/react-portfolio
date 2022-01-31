@@ -11,9 +11,8 @@ const Appbar = () => {
         fixed='top'
       >
         <NavbarBrand className='navbarName' href='/react-portfolio/'>
-          Nathan Montelli
+          Nathan Montell
         </NavbarBrand>
-        <NavbarToggler onClick={function noRefCheck () { }} />
         <Collapse navbar>
           <Nav
             className='m-auto'
