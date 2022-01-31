@@ -5,32 +5,32 @@ const Appbar = () => {
   return (
     <Container>
       <Navbar
-        color="dark"
+        color='dark'
         dark
-        expand="sm"
-        fixed="top"
+        expand='sm'
+        fixed='top'
       >
-        <NavbarBrand className='navbarName' href="/">
+        <NavbarBrand className='navbarName' href='/'>
           Nathan Montelli
         </NavbarBrand>
-        <NavbarToggler onClick={function noRefCheck() { }} />
-        <Collapse navbar >
+        <NavbarToggler onClick={function noRefCheck () { }} />
+        <Collapse navbar>
           <Nav
-            className="m-auto"
+            className='m-auto'
             navbar
           >
             <NavItem>
-              <NavLink href="#aboutMe">
+              <NavLink href='#aboutMe'>
                 About Me
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#portfolio">
+              <NavLink href='#portfolio'>
                 Portfolio
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#contactMe">
+              <NavLink href='#contactMe'>
                 Contact
               </NavLink>
             </NavItem>
@@ -46,23 +46,24 @@ const Appbar = () => {
               </DropdownToggle>
               <DropdownMenu
                 className='btn2'
-                right>
+                right
+              >
                 <DropdownItem>
-                  <NavLink className='btn3' href="https://github.com/NathanMontelli">
+                  <NavLink className='btn3' href='https://github.com/NathanMontelli'>
                     GitHub
                     {/* <img className='full' src="https://img.icons8.com/nolan/96/github.png" alt="gitHub" /> */}
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink className='btn3' href="https://www.linkedin.com/in/nathanmontelli/">
-                    Linkedin 
+                  <NavLink className='btn3' href='https://www.linkedin.com/in/nathanmontelli/'>
+                    Linkedin
                     {/* <img className='full' src="https://www.maryville.edu/wp-content/uploads/2015/11/Linkedin-logo-1-550x550-300x300.png" alt='linkedin' /> */}
                   </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="https://docs.google.com/document/d/1OSeYMj4DoRSfnZ13uI1yB5Lh451gDkXf1JSDPdAEziM/edit?usp=sharing">
+              <NavLink href='https://docs.google.com/document/d/1OSeYMj4DoRSfnZ13uI1yB5Lh451gDkXf1JSDPdAEziM/edit?usp=sharing'>
                 Resume
               </NavLink>
             </NavItem>

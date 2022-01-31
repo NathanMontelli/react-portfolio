@@ -1,27 +1,26 @@
-import { Card, CardBody, CardTitle, CardText, CardImg, CardColumns, Button, CardSubtitle, Col, Row } from 'reactstrap'
-import pokeBackground from "../../Assets/pokemonBackground.png"
-import smarterBarter1 from "../../Assets/smarterbarter1.PNG"
-import lofiGirl from "../../Assets/lofigirl.gif"
-import "./Cards.css"
+import { Card, CardBody, CardTitle, CardText, CardImg, CardColumns, Button, Col, Row } from 'reactstrap'
+import pokeBackground from '../../Assets/pokemonBackground.png'
+import smarterBarter1 from '../../Assets/smarterbarter1.PNG'
+import lofiGirl from '../../Assets/lofigirl.gif'
+import './Cards.css'
 
 const Cards = () => {
   return (
     <>
 
-
       <CardColumns>
         <p id='portfolio' className='portfolio'>My Portfolio</p>
         <Row>
-          <Col sm="6">
+          <Col sm='6'>
             <Card>
               <CardImg
-                alt="Card image cap"
+                alt='Card image cap'
                 src={pokeBackground}
                 top
-                width="100%"
+                width='100%'
               />
               <CardBody>
-                <CardTitle tag="h5">
+                <CardTitle tag='h5'>
                   Welcome to the Safari
                 </CardTitle>
                 <CardText>
@@ -29,27 +28,28 @@ const Cards = () => {
                 </CardText>
                 <Button
                   className='btn-secondary'
-                  href="https://nathanmontelli.github.io/catchAllTheDadJokes/">
+                  href='https://nathanmontelli.github.io/catchAllTheDadJokes/'
+                >
                   Travel to the Safari
                 </Button>
               </CardBody>
             </Card>
           </Col>
-          <Col sm="6"></Col>
+          <Col sm='6' />
         </Row>
 
         <Row>
-          <Col sm="6"></Col>
-          <Col sm="6">
+          <Col sm='6' />
+          <Col sm='6'>
             <Card>
               <CardImg
-                alt="Card image cap"
+                alt='Card image cap'
                 src={smarterBarter1}
                 top
-                width="100%"
+                width='100%'
               />
               <CardBody>
-                <CardTitle tag="h5">
+                <CardTitle tag='h5'>
                   SmarterBarter
                 </CardTitle>
                 <CardText>
@@ -57,7 +57,8 @@ const Cards = () => {
                 </CardText>
                 <Button
                   className='linkBtn'
-                  href="https://smartbarter.herokuapp.com/login.html">
+                  href='https://smartbarter.herokuapp.com/login.html'
+                >
                   Enter SmarterBarter
                 </Button>
               </CardBody>
@@ -66,16 +67,16 @@ const Cards = () => {
         </Row>
 
         <Row>
-          <Col sm="6">
+          <Col sm='6'>
             <Card>
               <CardImg
-                alt="Card image cap"
+                alt='Card image cap'
                 src={lofiGirl}
                 top
-                width="100%"
+                width='100%'
               />
               <CardBody>
-                <CardTitle tag="h5">
+                <CardTitle tag='h5'>
                   LoFi Study Room - In Progress
                 </CardTitle>
 
@@ -84,7 +85,8 @@ const Cards = () => {
                 </CardText>
                 <Button
                   className='linkBtn'
-                  href="">
+                  href=''
+                >
                   Join a LoFi Study Room
                 </Button>
               </CardBody>
@@ -92,7 +94,7 @@ const Cards = () => {
           </Col>
         </Row>
       </CardColumns>
-      <Col sm="6"></Col>
+      <Col sm='6' />
     </>
   )
 }

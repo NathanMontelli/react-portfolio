@@ -29,16 +29,10 @@
 }
 
 .navbarName {
-  font-size: 3rem!important;
+  font-size: 3rem !important;
   background: linear-gradient(to right, white 0%, turquoise 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  font: {
-    size: 10vw;
-  }
-
-  ;
 }
 
 li {

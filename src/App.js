@@ -5,9 +5,9 @@ import About from './components/About'
 import Cards from './components/Cards'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import "./App.css"
+import './App.css'
 
-function App() {
+function App () {
   return (
     <>
       <Container fluid>
