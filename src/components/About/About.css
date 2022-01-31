@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 10rem;
+  margin-top: 1rem;
+}
+
+.portrait1 {
+  height: 48%;
+  justify-content:;
+  border: 50px solid black
+}
+ .intro {
+   font-size: 75px;
+   padding-left: 10%;
+ }
+ .info {
+   font-size: 25px;
+   padding-left: 10%;
+   padding-right: 5%;
+ }
