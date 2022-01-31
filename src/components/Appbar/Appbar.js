@@ -10,7 +10,7 @@ const Appbar = () => {
         expand='sm'
         fixed='top'
       >
-        <NavbarBrand className='navbarName' href='/'>
+        <NavbarBrand className='navbarName' href='/react-portfolio/'>
           Nathan Montelli
         </NavbarBrand>
         <NavbarToggler onClick={function noRefCheck () { }} />
