@@ -5,6 +5,8 @@
 
 .btn-secondary:hover {
   background-color: turquoise!important;
+  color: white!important;
+  
 }
 
 .portfolio {
