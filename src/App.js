@@ -1,7 +1,8 @@
-import react from 'react'
+import React from 'react'
 import { Container } from 'reactstrap'
 import Appbar from './components/Appbar'
 import About from './components/About'
+import Cards from './components/Cards'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Container fluid>
     <Appbar />
     <About />
+    <Cards />
     </Container>
     </>
   )
