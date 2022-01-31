@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col} from 'reactstrap'
 import './About.css'
-import portrait from '../../portrait.JPG'
+import portrait from '../../Assets/portrait.JPG'
 
 const About = () => {
   return (
